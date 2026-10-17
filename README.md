@@ -1,6 +1,6 @@
 # 📊 GDP Dashboard
 
-> **Learning case study** · 📊 Data transformation · Data visualization · Web apps
+> **Learning case study** · Data transformation · Data visualization · Web apps
 >
 > A historical experiment with explanations, examples, and source code.
 
