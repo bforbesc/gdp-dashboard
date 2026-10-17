@@ -2,7 +2,7 @@
 
 > **Learning case study** · 📊 Data transformation · Data visualization · Web apps
 >
-> An experiment preserved for teaching. You can learn from the explanation, sample, and code even if the original app no longer runs.
+> A historical experiment with explanations, examples, and source code.
 
 [📚 Learning hub](https://github.com/bforbesc/Data-AI-with-Forbes) · [🧭 Beginner guide](https://github.com/bforbesc/Data-AI-with-Forbes/blob/main/START_HERE.md) · [🌐 Build and deploy a data app](https://github.com/bforbesc/Data-AI-with-Forbes/tree/main/templates/streamlit-starter)
 
@@ -11,8 +11,6 @@
 **How can a table become a chart that another person can explore?**
 
 **CSV table → reshape and filter → chart and controls → interpretation**
-
-This is a study of an approach, rather than a recommendation to adopt an old app. First explain what happens in each step; only then look at the library or framework that implements it.
 
 | Tool in this project | What it does in the example |
 |---|---|
@@ -33,7 +31,7 @@ The bundled World Bank data covers **1960–2022**, uses **current US dollars**,
 
 ## Start here: no coding
 
-Open the [shared Streamlit GDP template demo](https://gdp-dashboard-template.streamlit.app/), or use this repository's app if your teacher runs it. The shared demo is an upstream example, not a verified deployment of this exact code; its data and controls may change. If it is unavailable, use the worksheet below with your teacher.
+Open the [shared Streamlit GDP template demo](https://gdp-dashboard-template.streamlit.app/) or run a local copy using the setup below. The shared demo is an upstream example, not a verified deployment of this exact code; its data and controls may change. The worked example below is available without the app.
 
 1. Find **Which countries would you like to view?** Remove the default selections and choose `PRT` (Portugal) and `ESP` (Spain).
 2. Set **Which years are you interested in?** to 2000–2022.
@@ -63,13 +61,13 @@ A is larger in 2022: 300 versus 240. From 2000, both end at **3 times** their st
 
 </details>
 
-## For teachers
+## Data limitations
 
-Allow about 15 minutes. Ask students to predict before moving a control, then explain why the same dataset can support different comparisons. A blank value is missing information, not a zero. Current-dollar GDP changes also reflect prices and exchange rates; this app is not an inflation-adjusted growth calculator.
+A blank value is missing information, not a zero. Current-dollar GDP changes also reflect prices and exchange rates; this app is not an inflation-adjusted growth calculator.
 
 ## Optional: run your own copy
 
-Students exploring the demo do not need these steps. A teacher or someone familiar with Python can run the project locally:
+With Python installed:
 
 1. On GitHub, choose **Code → Download ZIP**, extract it, and open a terminal in that folder.
 2. With Python installed, create a separate environment and install the dependencies:
